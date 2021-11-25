@@ -7,18 +7,8 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 16px 128px;
     
-}
-
-.boxOne {
-    background-color: #1F2937;
-    display: flex;
-}
-
-.heroText {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
 }
 
 ul {
@@ -36,4 +26,58 @@ ul {
     color: #F9FAF8;
     font-weight: 700;
     padding: 0px;
+}
+
+.boxOne {
+    padding: 64px 128px;
+    height: 400px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroText {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.boxTwo {
+    padding: 64px 128px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    gap: 16px
+}
+
+.boxThree {
+    background-color: #E5E7EB;
+    padding: 64px 128px;
+    height: 400px;
+}
+
+.boxFour {
+    padding: 64px 128px;
+    height: 400px;
 }
