@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boxOne {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.heroText {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 0px;
+}
