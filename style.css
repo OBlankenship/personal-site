@@ -115,6 +115,8 @@ a {
     height: 400px;
     text-align: center;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -122,4 +124,26 @@ a {
     padding: 32px;
     text-align: center;
     color: #F9FAF8;
+}
+
+.contactBox {
+    background-color: #3882F6;
+    width: 75%;
+    margin: 3% auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    border-radius: 25px;
+    font-size: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.emailButton {
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 100px;
 }
